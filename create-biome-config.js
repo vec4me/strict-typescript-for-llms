@@ -4,6 +4,9 @@ import { writeFileSync } from "node:fs";
 const schemaUrl = "https://biomejs.dev/schemas/2.3.14/schema.json";
 
 const off = new Set([
+	"a11y/noNoninteractiveElementInteractions",
+	"a11y/noStaticElementInteractions",
+	"a11y/useKeyWithClickEvents",
 	"complexity/noExcessiveCognitiveComplexity",
 	"complexity/noExcessiveLinesPerFunction",
 	"complexity/noVoid",
